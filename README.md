@@ -54,43 +54,36 @@
     - Payment Status
     - Total Amount
     - Payment Timestamp
-7. **~~Delivery Executive:~~**
-    - ~~ID (Auto-generated)~~
-    - ~~Name~~
-    - ~~Contact Information~~
-    - ~~Availability Status~~
-    - ~~Current Location (Latitude and Longitude)~~
-8. **Review/Rating:**
+7. **Review/Rating:**
     - ID (Auto-generated)
     - Customer (reference to User entity)
     - Restaurant (reference to Restaurant entity)
     - Rating
     - Review Text
     - Timestamp
-9. **Promotion/Coupon:**
+10. **Promotion/Coupon:**
     - ID (Auto-generated)
     - Code
     - Discount Amount
     - Validity Period
     - Terms and Conditions
-10. **Notification:**
+11. **Notification:**
     - ID (Auto-generated)
     - Recipient (reference to User, Restaurant, or Delivery Executive entity)
     - Message
     - Timestamp
     - Read Status
-11. **Category:**
+12. **Category:**
     - ID (Auto-generated)
     - Name
-12. **Address:**
+13. **Address:**
     - ID (Auto-generated)
     - Street Address
     - City
     - State/Province
     - Postal Code
-    - Country
-    
-13. contact information
+    - Country  
+14. contact information
     - email
     - mobile
     - twitter
